@@ -1,0 +1,85 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.bg-image {
+	background-image: url(images/toDoListBackground.jpg);
+	width: 100vw;
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	overflow: hidden;
+}
+
+.list-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 0 auto;
+	width: 30vw;
+	height: 90vh;
+	background-color: rgba(239, 232, 215, 0.786);
+	margin-top: 20px;
+	border-radius: 5%;
+}
+
+h1 {
+	font-family: "Charm", cursive;
+	font-size: 48px;
+	text-align: center;
+	text-shadow: rgba(247, 170, 54, 0.86) 5px 0 5px;
+}
+
+.add-task-btn {
+	background-color: rgba(247, 170, 54, 0.842);
+	font-size: 20px;
+	font-weight: bold;
+	border-radius: 50px;
+	width: 25px;
+	height: 25px;
+	box-shadow: 0 0 9px 1px;
+}
+
+.to-do {
+	box-shadow: 0 0 10px 1px;
+	border: none;
+	padding: 5px 10px;
+}
+
+ul {
+	margin-top: 20px;
+	list-style-type: none;
+}
+
+li {
+	font-family: "Charm", cursive;
+	font-size: 20px;
+	display: flex;
+	flex-direction: row;
+	gap: 10px;
+	border-bottom: 1px solid black;
+	margin-top: 10px;
+}
+
+.delete-btn,
+.edit-btn {
+	width: 25px;
+	height: 25px;
+	border-radius: 50%;
+	border: 0.2px solid rgba(0, 0, 0, 0.396);
+	background-color: rgba(247, 170, 54, 0.663);
+}
+
+.task-item.completed span {
+	text-decoration: line-through;
+	color: gray;
+}
+
+@media screen and (max-width: 768px) {
+	.list-container {
+		width: 75vw;
+	}
+}
