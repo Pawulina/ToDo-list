@@ -6,7 +6,7 @@ A simple web application for managing tasks. It allows you to add, edit, delete,
 
 ## 🚀 Live Demo
 
-Check out the live demo of this project [here]().
+Check out the live demo of this project [here](https://pawulina.github.io/ToDo-list/).
 
 ## 🎯 Features
 
